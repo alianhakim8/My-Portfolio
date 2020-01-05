@@ -1,0 +1,77 @@
+html {
+    position: relative;
+}
+
+body{
+    margin-bottom: 100px;
+}
+
+.jumbotron img{
+    border-radius: 50%;
+    width: 200px;
+    filter: grayscale(25%);
+}
+
+.jumbotron h1 , #desc{
+    color: white;
+}
+
+.jumbotron{
+    background-color: #413c69;
+}
+
+hr {
+    border-top: 3px solid #413c69;
+    border-radius: 50px;
+    width: 300px
+}
+.portfolio hr{
+        border-top: 3px solid #413c69;
+        border-radius: 50px;
+        width: 300px;
+        color: white;
+    
+}
+
+
+section{
+    min-height: 600px;
+}
+
+.portfolio{
+    background-color: #ecf0f1;
+}
+
+.btn-primary{
+    border: 0px ;
+    border-radius: 2px;
+    background-color: #413c69;
+}
+
+.contact{
+    min-height: 800px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    background-color: #413c69;
+
+}
+
+footer a , #copyright{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding-top: 20px;
+}
+
+footer a:hover{
+    color: grey;
+    text-decoration: none;
+}
+
+
+
