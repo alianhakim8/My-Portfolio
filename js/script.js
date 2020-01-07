@@ -1,6 +1,7 @@
 // navbar mobile
 $(document).ready(function () {
     $('.sidenav').sidenav();
+
 });
 
 // akhir navbar mobile
@@ -14,8 +15,8 @@ $('.page-scroll').on('click', function (e) {
 
     $('html , body').animate({
         scrollTop: elemenTujuan.offset().top - 50
-    }, 1000, 'easeInOutExpo');
-
+    }, 1200, 'easeInOutExpo');
     e.preventDefault();
-});
 
+
+});
